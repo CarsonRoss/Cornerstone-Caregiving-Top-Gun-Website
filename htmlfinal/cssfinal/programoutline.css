@@ -1,0 +1,309 @@
+/*html {
+  font-size: calc(100vw / 1600 * 100);
+  @media (max-width: 768px) {
+    font-size: calc(100vw / 768 * 100);
+  }
+}
+*/
+body {
+  min-height: 100vh;
+  padding: 0.5rem;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.navbarcontainer {
+  background-color: white;
+}
+
+.wrapper {
+  background: #08101f;
+  margin: 0 auto;
+}
+
+.topwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+.overlaycontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  position: relative;
+}
+
+.topwrapper img {
+  width: 35%;
+  height: auto;
+  display: block;
+  padding-bottom: 30px;
+}
+
+#opheader {
+  font-family: "effra";
+  font-size: 3vw;
+  font-weight: 1000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.text {
+  max-width: 1800px;
+  margin: 0 auto;
+  flex: 1;
+  opacity: 1;
+  line-height: 100;
+  transition: all 1s ease-in-out;
+}
+
+p a {
+  color: #66cadb;
+}
+
+p a:hover {
+  color: white;
+  cursor: pointer;
+  transition: ease-out;
+}
+
+.headercontainer {
+  font-family: "termina";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.weekly-outline-background {
+  background: #08101f;
+}
+/*
+.List {
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+.List h2 {
+  font-size: 50px;
+  color: white;
+}
+
+.List h3 {
+  font-size: 30px;
+  margin-bottom: 1vw;
+}
+*/
+
+.week-section {
+  margin: 0 auto;
+  max-width: 1800px;
+  padding: 50px;
+  color: white;
+  font-weight: 300;
+  height: auto;
+  overflow: hidden;
+  font-size: 25px;
+  /*
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  */
+}
+
+.weekly-header {
+  font-family: "termina";
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#one {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.introparagraph span {
+  color: white;
+  margin: 0 auto;
+  max-width: 1800px;
+  display: block;
+  opacity: 0;
+  animation: topanimation 1s forwards var(--delay);
+}
+
+.introparagraph.animate span {
+  opacity: 1;
+  transform: translateY(0);
+  animation: none; /* Remove the animation when the class is added */
+}
+
+@keyframes topanimation {
+  from {
+    translate: 0 100px;
+  }
+  to {
+    translate: none;
+    opacity: 1;
+  }
+}
+
+.summary-background {
+  background: rgba(78, 155, 168);
+  background: #08101f;
+}
+
+.Summary {
+  margin: 0 auto;
+  padding: 50px 0px 50px 0px;
+  max-width: 1800px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.wordcontainer {
+  margin: 0 auto;
+  max-width: 1800px;
+}
+/*
+.weekly-header:first-of-type {
+  animation: showup 10s;
+  animation-iteration-count: 1;
+}
+
+.weekly-header:last-of-type {
+  width: 0px;
+  animation: reveal 10s forwards;
+}
+*/
+/*
+@keyframes showup {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 1;
+    width: 0px;
+  }
+  50% {
+    opacity: 1;
+    width: 85vw;
+  }
+  100% {
+    opacity: 1;
+    width: 85vw;
+  }
+}
+*/
+/*
+#programoutline {
+  font-size: 30px;
+  margin: 0;
+  width: 250px;
+  height: 70px;
+  line-height: 2;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  border: solid white 0px;
+  font-weight: lighter;
+  transform: translateY(0px);
+}
+*/
+.presto {
+  font-family: "ivypresto-display";
+}
+
+@media (max-width: 1024px) {
+  #first.week-section {
+    padding-top: 1vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  #FJO {
+    font-size: 1.5rem;
+  }
+  .headercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4vw;
+    justify-content: center;
+    /*padding: 50px 15px 0px 15px;*/
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 1vw;
+  }
+
+  #one,
+  #two {
+    width: 100%;
+  }
+
+  .Summary {
+    text-align: left;
+  }
+
+  #disappear {
+    display: none;
+  }
+
+  #first.week-section {
+    padding-top: 0px;
+  }
+
+  .weekly-header {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .weekly-header {
+    text-align: center;
+  }
+}
+/*
+@media (max-width: 425px) {
+  @keyframes reveal {
+    0% {
+      opacity: 1;
+      width: 0px;
+    }
+    30% {
+      opacity: 1;
+      width: 85vw;
+    }
+    100% {
+      opacity: 1;
+      width: 85vw;
+    }
+  }
+}
+*/
