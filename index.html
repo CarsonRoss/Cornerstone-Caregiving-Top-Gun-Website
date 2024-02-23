@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="cssfinal\topnavigation.css" rel="stylesheet" type="text/css" />
+    <link href="cssfinal\newhomepage.css" rel="stylesheet" type="text/css" />
+    <link href="cssfinal\transition.css" rel="stylesheet" type="text/css" />
+    <link href="cssfinal\fonts.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/0cb39de7ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/PNG" href="websitePictures\Full@4x.PNG" />
+  </head>
+
+  <body>
+    <div class="navbarcontainer">
+      <header>
+        <div class="imagecontainer">
+          <a href="index.html">
+            <img
+              src="websitePictures\CornerstoneLogo.jpg"
+              alt="Cornerstone Caregiving Logo"
+              class="image"
+            />
+          </a>
+        </div>
+        <nav>
+          <ul class="navigationbarlist">
+            <li>
+              <a class="link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="link" href="programoutline.html">Program Outline</a>
+            </li>
+            <li>
+              <a class="link" href="operatingdirector.html"
+                >Operating Director</a
+              >
+            </li>
+            <li>
+              <a class="link" href="aboutus.html">Resources</a>
+            </li>
+            <li>
+              <a href="apply.html"
+                ><input type="submit" value="Apply" class="button"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li>
+              <a class="link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="link" href="programoutline.html">Program Outline</a>
+            </li>
+            <li>
+              <a class="link" href="operatingdirector.html"
+                >Operating Director</a
+              >
+            </li>
+            <li>
+              <a class="link" href="aboutus.html">Resources</a>
+            </li>
+            <li>
+              <a class="link" href="apply.html">Apply</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <script>
+      function toggleMobileMenu(menu) {
+        const body = document.body;
+        const mobileMenu = document.querySelector(".mobile-menu");
+        menu.classList.toggle("open");
+        document.body.classList.toggle("menu-open");
+      }
+    </script>
+  </body>
+
+  <div class="background">
+    <div class="border">
+      <img src="websitePictures\White_1@4x.PNG" />
+      <div class="header">
+        <h1>Cornerstone Caregiving</h1>
+        <h2>The Top Gun Program</h2>
+      </div>
+    </div>
+  </div>
+
+  <section class="topsection">
+    <div class="container">
+      <div class="leader">
+        <h1>Do you have what it takes?</h1>
+      </div>
+      <div class="corinne">
+        <img src="websitePictures\corinnestreeter.jpg" alt="Corinne Streeter" />
+        <div class="corinnetext">
+          <strong>Corinne Streeter</strong>
+          <br />
+          Director of Operations at Cornerstone Caregiving
+        </div>
+      </div>
+      <!--
+      <iframe
+        auotplay
+        muted
+        src="https://www.youtube.com/embed/-cANVgAvzDM?si=u-z239webjJMWShv"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        >Your Browser does not support this video tag</iframe
+      >
+      -->
+    </div>
+  </section>
+
+  <div class="program-highlights" id="wordcloud">
+    <div class="wordcloud1">
+      <h1>Program Highlights</h1>
+      <ul id="proghighlights">
+        <li>
+          <div class="h">1. Compensation</div>
+          <ul>
+            - All expenses for travel, meals, and lodging are covered for the
+            entire 5-week program
+            <br />
+            - In addition to all travel being covered, candidates receive a
+            weekly stipend of $1000
+          </ul>
+        </li>
+        <li>
+          <div class="h">2. Competition</div>
+          <ul>
+            - This program fosters competition with a performace-based scoring
+            system
+            <br />
+            - The ability to compete against the top young professionals in the
+            U.S.
+            <br />
+            - Candidates are graded from day one until completion
+          </ul>
+        </li>
+        <li>
+          <div class="h">3. Training</div>
+          <ul>
+            - Kick-off the first week with founder-led corporate training in
+            Waco, TX
+            <br />
+            - The following 4 weeks include working under a current Operating
+            Director with a proven history of success in one of our nationwide
+            offices
+            <br />
+            - Gain hands on experience in high-level decision-making, including
+            hiring and firing
+            <br />
+            - Take ownership of a P&L statement, learning essential financial
+            management skills
+          </ul>
+        </li>
+        <li>
+          <div class="h">4. Mentorship</div>
+          <ul>
+            - Participants benefit from one-on-one mentorship with experienced
+            directors
+            <br />
+            - Gain valuable insights and consistent feedback throughout the
+            program
+          </ul>
+        </li>
+        <li>
+          <div class="h">5. Career Growth</div>
+          <ul>
+            - A chance to walk away with all the knowledge and tools you need to
+            lead, develop, and grow a company
+          </ul>
+        </li>
+      </ul>
+      <!--<img src="websitePictures\wordcloudtopgun.png" />-->
+    </div>
+  </div>
+  <!--<div class="program-highlights" id="benefits">
+    <h1>Program Benefits</h1>
+    <ul>
+      <li>- Budgeted stipend for ALL travel, meals and lodging</li>
+      <li>- Bonus salary of <strong>$1000</strong> per week</li>
+      <li>- Company laptop</li>
+    </ul>
+  </div>-->
+
+  <div class="summaryBackground">
+    <section class="Summary">
+      <h3>Cornerstone Caregiving</h3>
+      <h2>Why Top Gun</h2>
+
+      <div class="text push-up">
+        <div class="flexcontainer">
+          <div class="P1">
+            At Cornerstone Caregiving, we believe in unlocking potential,
+            especially in a rising generation of leaders. Our mission is clear:
+            provide elite young professionals a chance to showcase their
+            abilites, and give them a chance to become a pillar of our company,
+            an
+            <strong>Operating Director</strong>.
+
+            <br />
+            <br />
+
+            The Top Gun Program actively shapes emerging leaders. Understanding
+            the true growth comes from hand-on experience, this program prepares
+            our canidates to thrive. On top of that, canidates are challenged to
+            overcome obstacles and develop leadership skills. Our canidates are
+            entrusted with their own office where they gain understanding by
+            experience.
+
+            <br />
+            <br />
+
+            Our commitment transcends conventional mentorship; we create a
+            dynamic learning environment where candiates not only learn but
+            actively contribute to shaping the future of our business. Embark on
+            a journey where untapped potential converges with unparalleled
+            opportunity, ultimately shaping ones future as a business leader.
+          </div>
+        </div>
+      </div>
+      <script src="basewebsite\transistion.js"></script>
+    </section>
+  </div>
+
+  <div class="footerbackground">
+    <a href="apply.html">Apply Now</a>
+    <div class="bottomfooter">
+      <div class="footer">
+        <a href="index.html"> © 2024 Cornerstone Caregiving </a>
+      </div>
+    </div>
+  </div>
+</html>

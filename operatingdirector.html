@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Operating Director</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="cssfinal\topnavigation.css" rel="stylesheet" type="text/css" />
+    <link
+      href="cssfinal\operatingdirector.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="cssfinal\accordian.css" rel="stylesheet" type="text/css" />
+    <link href="cssfinal\transition.css" rel="stylesheet" type="text/css" />
+    <link href="cssfinal\fonts.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/PNG" href="websitePictures\Full@4x.PNG" />
+    <script
+      src="https://kit.fontawesome.com/0cb39de7ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="imagecontainer">
+        <a href="index.html">
+          <img
+            src="websitePictures\CornerstoneLogo.jpg"
+            alt="Cornerstone Caregiving Logo"
+            class="image"
+          />
+        </a>
+      </div>
+      <nav>
+        <ul class="navigationbarlist">
+          <li>
+            <a class="link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="link" href="programoutline.html">Program Outline</a>
+          </li>
+          <li>
+            <a class="link" href="operatingdirector.html">Operating Director</a>
+          </li>
+          <li>
+            <a class="link" href="aboutus.html">Resources</a>
+          </li>
+          <li>
+            <a href="apply.html"
+              ><input type="submit" value="Apply" class="button"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li>
+            <a class="link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="link" href="programoutline.html">Outline</a>
+          </li>
+          <li>
+            <a class="link" href="operatingdirector.html">Operating Director</a>
+          </li>
+          <li>
+            <a class="link" href="aboutus.html">Resources</a>
+          </li>
+          <li>
+            <a class="link" href="apply.html">Apply</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <script>
+      function toggleMobileMenu(menu) {
+        const body = document.body;
+        const mobileMenu = document.querySelector(".mobile-menu");
+        menu.classList.toggle("open");
+        document.body.classList.toggle("menu-open");
+      }
+    </script>
+  </body>
+
+  <div class="container" id="first">
+    <div class="topwrapper">
+      <div class="overlaycontainer">
+        <div class="darkoverlay"></div>
+        <img
+          src="websitePictures\topgundillonbaker.jpg"
+          alt="Top Gun Training"
+        />
+        <div class="Summary">
+          <div id="opheader">Become an Operating Director</div>
+        </div>
+      </div>
+    </div>
+    <p>
+      After completion of the Top Gun Program and proceeding through the hiring
+      process, our Operating Directors play a pivotal role in optimizing the
+      growth and development of Cornerstone through a multi-faceted approach.
+      You will manage and actively expand your office, relishing in uncapped
+      growth, a
+      <strong>lucrative compensation package</strong>, and watching your
+      business take off.
+    </p>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <img
+        src="websitePictures\topgunstudent2.jpg"
+        alt="Image 1"
+      />
+    </div>
+
+    <div class="grid-item">
+      <div class="text">
+        <div class="textinbox" id="top">
+          <p>
+            <div class="earnings">Top Earnings</div>
+            <div class = "months">6 Months:</div>
+            <strong id="money">$150,000</strong>
+            <div class = "months">12 Months:</div>
+            <strong id="money">$260,000</strong>
+            <div class = "months">24 Months:</div>
+            <strong id="money">$690,000</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="text" id="list">
+        <h2>Benefits</h2>
+        - Unparalleled Compensation:
+        <br>
+        <span>- Base salary $80,000 with <strong>20%</strong> profit share</span>
+        <br>
+        - Health, Dental, and Vision Insurance
+        <br>
+        - Company car & gas card
+        <br>
+        - Company phone stipend
+        <br>
+        - Unlimited PTO
+        <br>
+        - Ongoing training and professional development</div>
+      </div>
+    <div class="grid-item">
+      <img
+        src="websitePictures\topgunstudent3.jpg"
+        alt="Image 2"
+      />
+    </div>
+  </div>
+
+  <div class="container" id="second">
+    <!--
+  <div class="imagetextboxcontainer">
+    <div class="image">
+      <img
+        src="websitePictures\websiteforcornerstonecaregiving\IMG_1074.JPG"
+        alt="Team Picture"
+      />
+    </div>
+    <div class="textinbox" id="top">
+      <p>
+        Top Earnings By:
+        <br />
+        <br />
+        <div class = "months">6 Months:</div>
+        <strong id="money">$150,000</strong>
+        <br />
+        <br />
+        <div class = "months">12 Months:</div>
+        <strong id="money">$260,000</strong>
+        <br />
+        <br />
+        <div class = "months">24 Months:</div>
+        <strong id="money">$690,000</strong>
+        <br />
+      </p>
+    </div>
+  </div>
+
+  <div class="imagetextboxcontainer">
+    <div class="textinbox" id="bottom">
+      <p>This is a test text.</p>
+    </div>
+    <div class="image">
+      <img
+        src="websitePictures\websiteforcornerstonecaregiving\IMG_2714.JPG"
+        alt="Team Picture"
+      />
+    </div>
+  </div>
+-->
+  </div>
+
+  <div class="container" id="third">
+    <div class="list-background">
+      <div class="rolesandresponsibilities">
+        <h1>Roles and Responsibilites</h1>
+        <h3>As the director, you will independently manage and lead a branch of Cornerstone Caregiving, along with unparalleled and ongoing corporate training and support.</h3>
+        <h2>Business Development:</h2>
+        <p>
+          Develop and execute a marketing plan to establish Cornerstone as the
+          preferred in-home care provider.
+        </p>
+        <h2>Referral Building:</h2>
+        <p>
+          Cultivate and manage relationships with referral partners (hospitals,
+          hospices, senior living, etc.).
+        </p>
+        <h2>Staffing and Scheduling:</h2>
+        <p>
+          Hiring and onboarding new team members and ensuring all shifts are
+          property staffed. Monitor on-call responsibilities as calls come from
+          clients, caregiving and partners.
+        </p>
+        <h2>In-Home Assessments:</h2>
+        <p>
+          Build strong client relationships, conduct intakes, and ensure client
+          satisfaction.
+        </p>
+        <h2>Financial Management:</h2>
+        <p>
+          Oversee office budget that is reflected in profit and loss statements.
+        </p>
+        <h2>Cultivating Culture:</h2>
+        <p>
+          Creating the workplace of choice for your territory. Set your own
+          standard through incentivizing, motivating, and setting the tone of your
+          team morale.
+        </p>
+      </div>
+    </div>
+    <!--
+      <input type="checkbox" id="radioFull Compensation" name="accordion" />
+      <label class="item" for="radioFull Compensation">
+        <div class="titleaccordian">
+          Marketing and Building Referral Sources
+        </div>
+        <div class="content">
+          Develop and implement innovative marketing strategies to promote
+          Cornerstone’s services.
+          <br />
+          <br />
+          Foster and maintain strong relationships with healthcare
+          professionals, hospitals, and senior living facilities to generate
+          client referrals.
+        </div>
+      </label>
+
+      <input
+        type="checkbox"
+        id="radioComprehensive Training"
+        name="accordion"
+      />
+      <label class="item" for="radioComprehensive Training">
+        <div class="titleaccordian">
+          Team Building, Recruitment, and Caregiver Retention
+        </div>
+        <div class="content">
+          Lead the recruitment and selection of highly qualified caregivers
+          through effective hiring processes.
+          <br />
+          <br />
+          Create a positive and supportive work environment to attract and
+          retain caregivers.
+          <br />
+          <br />
+          Provide comprehensive training and ongoing support to caregivers.
+        </div>
+      </label>
+
+      <input
+        type="checkbox"
+        id="radioBusiness Expansion Exposure"
+        name="accordion"
+      />
+      <label class="item" for="radioBusiness Expansion Exposure">
+        <div class="titleaccordian">Office Management Oversight</div>
+        <div class="content">
+          Collaborate with office managers to ensure excellence in
+          administrative duties.
+          <br />
+          <br />
+          Monitor and optimize office performance to meet quality and growth
+          targets.
+        </div>
+      </label>
+
+      <input type="checkbox" id="radioMentorship" name="accordion" />
+      <label class="item" for="radioMentorship">
+        <div class="titleaccordian">Client Relations</div>
+        <div class="content">
+          Conduct initial assessments with potential clients to understand
+          their needs and expectations.
+          <br />
+          <br />
+          Establish and nurture strong client relationships to ensure
+          satisfaction.
+          <br />
+          <br />
+          Address and resolve client concerns promptly and effectively.
+        </div>
+      </label>
+
+      <input type="checkbox" id="radioCareer Growth" name="accordion" />
+      <label class="item" for="radioCareer Growth">
+        <div class="titleaccordian">Scheduling</div>
+        <div class="content">
+          Utilize scheduling software to efficiently match caregivers with
+          clients' preferred care schedules.
+        </div>
+      </label>
+
+      <input type="checkbox" id="radioInsurance" name="accordion" />
+      <label class="item" for="radioInsurance">
+        <div class="titleaccordian" id="insurance">
+          Insurance and Benefits
+        </div>
+        <div class="content" id="insurancecontent">
+          Dental, Health, Vision
+          <br />
+          <br />
+          Other: Company car, gas card, company phone, unlimited PTO (with
+          corporate approval) Annual compensation of $80,000 with a 20%
+          quarterly cash profit share
+        </div>
+      </label>
+    </div>
+  --></div>
+<!--
+  <div class="video-text-box-background">
+    <section class="video-text-box">
+      <div class="operating-director-container">
+        <div class="videoheader">Title For Video</div>
+        <div class="video-holder">
+          <video autoplay muted controls>
+            <source src="Sequence 01_1.mp4" type="video/mp4" />
+            Your browser does not support the video tag
+          </video>
+        </div>
+      </div>
+    </section>
+  </div>
+-->
+  <div class="footerbackground">
+    <a href="apply.html">Apply Now</a>
+    <div class="bottomfooter">
+      <div class="footer">
+        <a href="index.html"> © 2024 Cornerstone Caregiving </a>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="footerbackground">
+    <div class="topfooter">
+      <div class="footertextcontainer">
+        <div class="footertext">Apply Now</div>
+      </div>
+      <form class="bottomform" method="post" action="#">
+        <div class="topboxes">
+          <div class="textbox1">
+            <input
+              class="input1"
+              type="text"
+              placeholder="Full Name"
+              name="fullname"
+            />
+          </div>
+          <div class="textbox1">
+            <input
+              class="input1"
+              type="tel"
+              placeholder="Phone Number"
+              name="phonenumber"
+            />
+          </div>
+        </div>
+        <div class="bottombox">
+          <div class="textbox2">
+            <input
+              class="input2"
+              type="email"
+              placeholder="Email"
+              name="email"
+            />
+            <input type="file" name="resume" id="resume" hidden />
+            <label class="input2" for="resume" id="resume">Upload Resume</label>
+            <span id="file-chosen">No file chosen</span>
+            <script src="file.js"></script>
+          </div>
+        </div>
+        <div class="footerbuttoncontainer">
+          <input type="submit" value="Submit" class="buttonbottom" />
+        </div>
+      </form>
+    </div>
+    <div class="bottomfooter">
+      <div class="footer">
+        <a href="index.html"> © 2024 Cornerstone Caregiving </a>
+      </div>
+    </div>
+  </div>
+--></html>
