@@ -263,7 +263,7 @@ h2 {
     margin: 0;
   }
   .leader {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     z-index: 1;
     margin-top: 0;
@@ -363,7 +363,7 @@ h2 {
 
   .leader h1 {
     line-height: 3rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
