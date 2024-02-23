@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.push-right {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.push-left {
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+.push-up {
+  opacity: 0;
+  transform: translateY(50px);
+}

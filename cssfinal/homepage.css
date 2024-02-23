@@ -1,0 +1,270 @@
+html > body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.leader {
+  flex: 1;
+  font-family: "termina";
+  color: #122048;
+  text-align: left;
+  font-weight: bold;
+  width: 50%;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.topsection {
+  position: relative;
+  background: linear-gradient(to bottom, rgb(102, 202, 219, 0.3), white);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.topsection h1 {
+  padding: 50px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.leader {
+  flex: 1;
+}
+
+.video-holder {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  padding-right: 40px;
+  z-index: 2;
+  padding-bottom: 29%;
+  width: 10%;
+  margin-right: 20px;
+  margin-top: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-holder iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.hangoffcontainer {
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+.topgunlogo {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translateX(50%);
+  margin-right: -50vw;
+  opacity: 0.3;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+.Summary {
+  font-family: "sofia-pro";
+  max-width: 1800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.Summary h2 {
+  font-family: "termina";
+  margin-left: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.Summary h3 {
+  margin-left: 50px;
+  color: white;
+}
+
+.flexcontainer {
+  display: flex;
+  width: 100%;
+}
+
+.P1 a:visited {
+  text-decoration: none;
+  color: #122048;
+}
+
+.P1 {
+  font-size: 0.15em;
+  text-align: left;
+  padding: 10;
+  margin-left: 50px;
+}
+
+.presto {
+  font-family: "ivypresto-display";
+  font-style: italic;
+  font-size: 100px;
+}
+
+.P2 {
+  font-size: 0.15em;
+  padding: 10;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.8rem;
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
+  margin-top: 10px;
+}
+
+.background {
+  background: rgb(102, 202, 219);
+  padding-bottom: 50px;
+  height: auto;
+}
+
+.parent-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1500px;
+  height: auto;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.unparalleled {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.content-container2 .underheading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  max-height: 256px;
+  max-width: 256px;
+}
+
+#homeapply {
+  font-size: 18px;
+  margin: 0;
+  width: 150px;
+  height: 75px;
+  line-height: 2;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 1000px) {
+  .leader,
+  .leader .presto {
+    font-size: 2em;
+    text-align: center;
+    z-index: 1;
+    margin-top: 0;
+  }
+
+  .leader,
+  .video-holder {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .leader,
+  .video-holder {
+    flex: 100%;
+  }
+
+  .leader h1 {
+    line-height: 0.7rem;
+  }
+
+  .presto {
+    padding-top: 0.4rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .video-holder {
+    margin-top: -100px;
+    padding-bottom: 56.25%;
+    margin-right: 0px;
+  }
+
+  .topgunlogo {
+    max-width: 150%;
+    max-height: 150%;
+  }
+
+  .Summary {
+    padding-top: 2vw;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .Summary h2 {
+    font-size: 2em;
+  }
+
+  .text {
+    margin-top: 0;
+  }
+
+  .P2 {
+    display: none;
+  }
+
+  .P1 {
+    margin-right: 50px;
+  }
+
+  #homeapply {
+    margin-top: 50px;
+  }
+}
