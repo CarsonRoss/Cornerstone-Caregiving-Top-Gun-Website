@@ -215,6 +215,7 @@ body.menu-open::before {
   text-decoration: none;
   color: #fff;
   font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .link::before,
