@@ -1,3 +1,12 @@
+/*
+html {
+  font-size: calc(100vw / 1600 * 100);
+  @media (max-width: 768px) {
+    font-size: calc(100vw / 768 * 100);
+  }
+}
+*/
+
 html > body {
   height: 100%;
   margin: 0;
@@ -6,21 +15,12 @@ html > body {
   overflow-x: hidden;
 }
 
-html {
-  font-size: calc(100vw / 1600 * 100);
-  @media (max-width: 768px) {
-    font-size: calc(100vw / 768 * 100);
-  }
-}
-
 .navbarcontainer {
   background-color: white;
 }
 
 body {
   min-height: 100vh;
-  padding: 0.5rem;
-  font-size: 0.2rem;
   background-color: #08101f;
 }
 
@@ -84,7 +84,6 @@ body {
 .Summary {
   position: absolute;
   width: 100%;
-  background-color: rbg(0, 0, 0, 0.7);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -337,19 +336,52 @@ span {
   }
 
   #list {
-    text-align: center;
-    padding-bottom: 0.5rem;
     font-size: 0.3rem;
+  }
+
+  #list h2 {
+    font-size: 0.7rem;
   }
 }
 
 @media (max-width: 600px) {
+  .rolesandresponsibilities h2 {
+    font-size: 0.7rem;
+  }
+
+  .rolesandresponsibilities h3 {
+    font-size: 0.5rem;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .rolesandresponsibilities p {
+    font-size: 0.5rem;
+  }
+
   .Summary p {
     font-size: 5vw;
   }
 
   .video-holder {
     width: 100%;
+  }
+
+  .earnings {
+    font-size: 1rem;
+  }
+
+  .months {
+    font-size: 0.6rem;
+  }
+
+  #money {
+    font-size: 0.9rem;
+  }
+
+  .rolesandresponsibilities h1 {
+    font-size: 0.8rem;
   }
 }
 
