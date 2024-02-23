@@ -44,6 +44,7 @@ h2 {
 .leader {
   flex: 1;
   font-family: "termina";
+  text-transform: capitalize;
   color: #122048;
   text-align: center;
   font-weight: bold;
@@ -262,7 +263,7 @@ h2 {
     margin: 0;
   }
   .leader {
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     z-index: 1;
     margin-top: 0;
@@ -348,6 +349,10 @@ h2 {
 
   .P1 {
     font-size: 0.7rem;
+  }
+
+  .header {
+    font-size: 0.4rem;
   }
 }
 
