@@ -342,6 +342,27 @@ span {
   #list h2 {
     font-size: 0.7rem;
   }
+
+  .earnings {
+    font-size: 3rem;
+  }
+
+  .months {
+    font-size: 2rem;
+  }
+
+  #money {
+    font-size: 2.5rem;
+  }
+
+  #list {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+  }
+
+  #list h2 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -369,15 +390,15 @@ span {
   }
 
   .earnings {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .months {
-    font-size: 0.6rem;
+    font-size: 1.4rem;
   }
 
   #money {
-    font-size: 0.9rem;
+    font-size: 1.8rem;
   }
 
   .rolesandresponsibilities h1 {
